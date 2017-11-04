@@ -5,63 +5,116 @@
 
 /*** GENERAL STYLE ***/
 
-* {
-  box-sizing: border-box;
+
+div{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    
 }
 
-html,
-body {
-  margin: 0;
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 45px;
 }
 
-/*** INTRO SECTION ***/
+      
 
-#intro-section {
-  height: 80vh;
-  background-image: url('intro-bg.jpg');
-  background-size: cover;
-  background-position: center;
+/***IDs***/
+
+
+#yum{
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 13px;
 }
 
-/* bio card */
-#bio-card {
-  width: 275px;
-  padding: 1.5em 0.5em;
-  background: rgba(255, 255, 255, 0.7);
-  text-align: center;
-  font-weight: 300;
-  box-shadow: 0 19px 38px rgba(0,0,0,0.20),
-              0 15px 12px rgba(0,0,0,0.17);
+#kewl{
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
-#bio-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  overflow: hidden;
+#dgmama{
+    margin-top: 6px;
 }
 
-#bio-pic > img {
-  width: 150px;
+#aye{
+    font-family: 'Shadows Into Light', cursive;
 }
 
-/** RESUME SECTION **/
-#resume-parent {
-  padding: 4em 0;
-  background: #EEE;
+#dgmama2{
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+    
 }
 
-.resume-child {
-  border: 1px solid #DEE0DE;
-  margin: 1em;
-  background: #FFF;
-  color: #515251;
+#kewl2{
+    color: black;
+    font-family: 'Poiret One', cursive;
+   font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 9px;
+    margin-right: 9px;
+
 }
 
-.div-title {
-  padding: 0.5em;
-  font-size: 1.25em;
-  background: #B4DBE5;
+#yum2{
+    margin-top: 15px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+
+    
+
+
+
+/**Class**/
+
+
+.music{
+    display: none;
+}
+
+
+.child{
+   
+    
+}
+
+
+.nav{
+    list-style: none;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 25px;
+    margin-top: 1px;   
+}
+
+.nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.nav li a:hover{
+    color: #FFA07A;
 }
